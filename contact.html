@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | RoyalStay Hotel</title>
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: linear-gradient(to right,#0f0c29,#302b63,#24243e); color: white; }
+    header, footer { background: rgba(0,0,0,0.8); text-align: center; padding: 20px; border-top: 3px solid gold; border-bottom: 3px solid gold; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: gold; }
+    form { max-width: 500px; margin: 50px auto; background: rgba(255,255,255,0.1); padding: 25px; border-radius: 10px; border: 2px solid gold; }
+    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; }
+    input[type="submit"] { background: gold; color: black; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="booking.html">Book</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <form action="confirmation.html" method="get">
+    <label>Name:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Message:</label>
+    <textarea rows="5" required></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+
+  <footer>
+    <p>© 2025 RoyalStay Hotel | Designed by Isaac Arch</p>
+  </footer>
+</body>
+</html>

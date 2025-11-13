@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Room | RoyalStay Hotel</title>
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: linear-gradient(to right,#000428,#004e92); color: white; }
+    header, footer { background: rgba(0,0,0,0.8); text-align: center; padding: 20px; border-top: 3px solid gold; border-bottom: 3px solid gold; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: gold; }
+    form { max-width: 500px; margin: 50px auto; background: rgba(255,255,255,0.1); padding: 25px; border-radius: 10px; border: 2px solid gold; }
+    input, select { width: 100%; padding: 10px; margin: 10px 0; border: none; border-radius: 5px; }
+    input[type="submit"] { background: gold; color: black; font-weight: bold; cursor: pointer; }
+    input[type="submit"]:hover { background: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Book Your Stay</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="booking.html">Book</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <form action="confirmation.html" method="get">
+    <label>Full Name:</label>
+    <input type="text" required>
+
+    <label>Email:</label>
+    <input type="email" required>
+
+    <label>Room Type:</label>
+    <select required>
+      <option>Deluxe Room</option>
+      <option>Executive Suite</option>
+      <option>Presidential Suite</option>
+    </select>
+
+    <label>Check-in Date:</label>
+    <input type="date" required>
+
+    <label>Check-out Date:</label>
+    <input type="date" required>
+
+    <input type="submit" value="Confirm Booking">
+  </form>
+
+  <footer>
+    <p>© 2025 RoyalStay Hotel | Designed by Isaac Arch</p>
+  </footer>
+</body>
+</html>

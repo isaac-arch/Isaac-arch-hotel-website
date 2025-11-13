@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Rooms | RoyalStay Hotel</title>
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: linear-gradient(135deg,#1a2a6c,#b21f1f,#fdbb2d); color: white; }
+    header, footer { background: rgba(0,0,0,0.8); text-align: center; padding: 20px; border-top: 3px solid gold; border-bottom: 3px solid gold; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: gold; }
+    .rooms { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 20px; padding: 40px; }
+    .room { background: rgba(255,255,255,0.1); border: 2px solid gold; border-radius: 10px; padding: 20px; text-align: center; }
+    .room img { width: 100%; border-radius: 10px; height: 180px; object-fit: cover; }
+    .btn { background: gold; color: black; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    .btn:hover { background: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Luxury Rooms</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="booking.html">Book</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="rooms">
+    <div class="room">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Deluxe Room">
+      <h3>Deluxe Room</h3>
+      <p>₦35,000 / night</p>
+      <a href="booking.html" class="btn">Book Now</a>
+    </div>
+    <div class="room">
+      <img src="https://images.unsplash.com/photo-1590490350335-3a0bff6b94d8" alt="Executive Suite">
+      <h3>Executive Suite</h3>
+      <p>₦55,000 / night</p>
+      <a href="booking.html" class="btn">Book Now</a>
+    </div>
+    <div class="room">
+      <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb" alt="Presidential Suite">
+      <h3>Presidential Suite</h3>
+      <p>₦85,000 / night</p>
+      <a href="booking.html" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 RoyalStay Hotel | Designed by Isaac Arch</p>
+  </footer>
+</body>
+</html>
